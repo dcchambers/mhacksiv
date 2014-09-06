@@ -6,6 +6,8 @@ Why don't you make an [s1] [s2] App!?
 
 Where [s1] and [s2] are strings.
 
+ie:
+
 [s1] possibilities:
 Virtual Reality
 Cloud-based
@@ -14,9 +16,6 @@ Gamified
 Adaptive
 Social
 Disruptive
-
-
-
 
 
 [s2] possibilities:
@@ -30,3 +29,4 @@ Artificial Intelligence
 Gen-X
 
 
+In the future, these arrays will be replaced with a database that will "pull" buzzwords from the web.
