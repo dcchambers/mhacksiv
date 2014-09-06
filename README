@@ -30,3 +30,5 @@ Gen-X
 
 
 In the future, these arrays will be replaced with a database that will "pull" buzzwords from the web.
+
+Temporarly abandoning plan to use Polymer [polymer-project.org] it's not being very nice right now.
