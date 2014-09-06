@@ -2,7 +2,7 @@
 //and the random string generator.
 
 var stringOne = ["Virtual Reality", "Cloud-based", "Open Source",
- "Gamified", "Adaptive", "Social", "Distuptive", "Automated", "Back-end", "Front-end",
+ "Game-ified", "Adaptive", "Social", "Distuptive", "Automated", "Back-end", "Front-end",
  "Collaborative", "Scalable", "Educational", ];
 var stringTwo = ["Social Networking", "Enterprise", "Android", "iOS",
  "Windows", "Mac", "Linux", "Windows Phone", "Web", "Artificial Intelligence", "Gen-X"
