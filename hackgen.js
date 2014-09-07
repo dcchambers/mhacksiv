@@ -24,5 +24,8 @@ function generateRands() {
 
 	document.getElementById("stringOne").innerHTML = tempOne;
 	document.getElementById("stringTwo").innerHTML = tempTwo;
+	document.getElementById("firstButton").style.display='none';
+	document.getElementById("secondButton").style.display='block';
+
 
 }
