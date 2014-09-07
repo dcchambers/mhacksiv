@@ -1,4 +1,6 @@
 <!doctype html>
+<!-- Read "The End Goal" page.-->
+
 <html>
 
 <head>
@@ -11,10 +13,8 @@
   	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-
-    
   }
-  <!-- background image borrowed from http://alexeymk.com/images/pennapps2012_1.jpg -->
+  <!-- background image borrowed from http://alexeymk.com/images/pennapps2012_1.jpg and altered for use on this site-->
 
   a:link {
   	text-decoration:none;
@@ -32,24 +32,62 @@
   	text-decoration:none;
     color: #f48fb1;
   }
+
+  .a{
+  	position:absolute;
+  	margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 40%;
+    margin-top:300px;
+  }
+  .b{
+  	position:absolute;
+  	margin-left: auto;
+    margin-right: auto;
+    left: 40%;
+    right: 0;
+  	margin-top:300px;
+  }
+
+  #inspire {
+  	position:absolute;
+  	margin-left: auto;
+    margin-right: auto;
+    left: 36%;
+    right: 0;
+  	margin-top:550px;
+  	font-family:Arial;
+  	font-size:25px;
+  }
+  #api {
+  	position:absolute;
+  	margin-left: auto;
+    margin-right: auto;
+    left: 36%;
+    right: 0;
+  	margin-top:600px;
+  	font-family:Arial;
+  	font-size:25px;
+  }
+
+
   </style>
 </head>
 
 
 <body>
 
-  <div id="about" style="color:#ff2d6f; margin-left:90%;"> The End Goal</div>
-  <div id="inspire" style="display:none; color: #ff2d6f;">
-  </div>
+  <a href="goal.html" id="about" style="color:#ff2d6f; margin-left:90%;"> The End Goal</a>
 
 
-  <div id="api" style="color:#ffeb3b;">
-  </div>
-
-  <img src="inspire.png" id="firstButton" onclick="generateRands()"></img>
-  <img src="fuckno.png" id="secondButton" style="display:none;" onclick="generateRands()"></img>
-  <img src="randomapi.png" id="randAPI" onclick="generateRandAPI()"></img>
-  <img src="fuckthatapi.png" id="randAPI2" style="display:none;" onclick="generateRandAPI()"></img>
+  <img src="inspire.png" class="a" id="firstButton" onclick="generateRands()"></img>
+  <img src="fuckno.png" class="a" id="secondButton" style="display:none;" onclick="generateRands()"></img>
+  <img src="randomapi.png" class="b" id="randAPI" onclick="generateRandAPI()"></img>
+  <img src="fuckthatapi.png" class="b" id="randAPI2" style="display:none;" onclick="generateRandAPI()"></img>
+  <br>
+  <div id="inspire" style="display:none; color: #ff2d6f;"></div>
+  <div id="api" style="color:#ffeb3b;"></div>
 </body>
 
 </html>
