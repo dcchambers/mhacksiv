@@ -37,3 +37,16 @@ function generateRands() {
 	document.getElementById("inspire").style.display='block';
 
 }
+
+var apiList = ["Google Maps", "Twitter"];
+var apiHref = ["https://developers.google.com/maps/", "https://dev.twitter.com/docs"];
+
+function generateRandAPI() {
+	var tempNum = Math.floor((Math.random() * apiList.length))
+	var tempApi = apiList[tempNum];
+	var tempHref = apiHref[tempNum];
+	var apiString = "You could try <a href=\""+tempHref+"\">"+tempApi+"</a> API!";
+
+	document.getElementById("api").innerHTML = apiString;
+	document.getElementById("api").stye.display="block";
+}
