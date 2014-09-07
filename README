@@ -1,34 +1,7 @@
 README
 
-Algorithm:
+See "goal.html" for details.
 
-Why don't you make an [s1] [s2] App!?
+This is a last minute project after extreme failure of my Android attempt.
 
-Where [s1] and [s2] are strings.
-
-ie:
-
-[s1] possibilities:
-Virtual Reality
-Cloud-based
-Open Source
-Gamified
-Adaptive
-Social
-Disruptive
-
-
-[s2] possibilities:
-Social Networking
-Enterprise
-Android
-iOS
-Windows Phone
-Web
-Artificial Intelligence
-Gen-X
-
-
-In the future, these arrays will be replaced with a database that will "pull" buzzwords from the web.
-
-Temporarly abandoning plan to use Polymer [polymer-project.org] it's not being very nice right now.
+Still wanted something to show for my hackathon hours and this is the result!
