@@ -40,15 +40,16 @@ function generateRands() {
 
 var apiList = ["Google Maps", "Twitter", "Flickr", "last.fm", "Google App Engine",
 "Foursquare", "Bing", "Box", "Salesforce", "Bit.Ly", "PayPal", "Quixey", "Bloomberg",
-"Parse", "Facebook", "Uber", "Nest", "Firebase", "Ziggeo", "indeed", "Venmo", "Twilio"];
+"Parse", "Facebook", "Uber", "Nest", "Firebase", "Ziggeo", "indeed", "Venmo", "Twilio", "Mashery/Intel", "Moxtra","Kik"];
 var apiHref = ["https://developers.google.com/maps/", "https://dev.twitter.com/docs", 
-"http://www.flickr.com/services/api/", "http://www.last.fm/api", "API Homepagehttps://developers.google.com/appengine/",
+"http://www.flickr.com/services/api/", "http://www.last.fm/api", "//developers.google.com/appengine/",
 "https://developer.foursquare.com/", "http://www.bing.com/dev/en-us/dev-center", 
 "http://developers.box.com/docs/", "http://developer.force.com/", "http://dev.bitly.com/get_started.html",
 "https://developer.paypal.com/", "https://www.quixey.com/developers/", "http://www.bloomberglabs.com/api/about/",
 "https://parse.com/docs/api_libraries", "https://developers.facebook.com/", "https://developer.uber.com/",
 "https://developer.nest.com/", "https://www.firebase.com/", "https://www.ziggeo.com/",
-"http://www.indeed.com/jsp/apiinfo.jsp", "https://developer.venmo.com/", "http://www.twilio.com/api"];
+"http://www.indeed.com/jsp/apiinfo.jsp", "https://developer.venmo.com/", "http://www.twilio.com/api", "http://www.mashery.com/api-management",
+"http://developer.moxtra.com/moxo/index.html", "http://dev.kik.com/"];
 
 function generateRandAPI() {
 	var tempNum = Math.floor((Math.random() * apiList.length))
