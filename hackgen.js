@@ -48,5 +48,7 @@ function generateRandAPI() {
 	var apiString = "You could try <a href=\""+tempHref+"\">"+tempApi+"</a> API!";
 
 	document.getElementById("api").innerHTML = apiString;
-	document.getElementById("api").stye.display="block";
+	document.getElementById("api").style.display='block';
+	document.getElementById("randAPI").style.display='none';
+	document.getElementById("randAPI2").style.display='block';
 }
