@@ -10,22 +10,30 @@ var stringTwo = ["Social Networking", "Enterprise", "Android", "iOS",
 
 function generateRands() {
 
+	var inspireString = "You should make ";
 	var tempOne = stringOne[Math.floor((Math.random() * stringOne.length))];
 	var tempTwo = stringTwo[Math.floor((Math.random() * stringTwo.length))];
 
 	var firstChar = tempOne.charAt(0);
 	if (firstChar == ('A') || firstChar == ('E') || firstChar == ('I') || 
 		firstChar == ('O') || firstChar == ('U')){
-		document.getElementById("aORan").innerHTML = "an";
+		//document.getElementById("aORan").innerHTML = "an";
+		inspireString = inspireString.concat("an ");
 	}
 	else {
-		document.getElementById("aORan").innerHTML = "a";
+		//document.getElementById("aORan").innerHTML = "a";
+		inspireString = inspireString.concat("a ");
 	}
+	inspireString = inspireString.concat(tempOne+" ");
+	inspireString = inspireString.concat(tempTwo);
+	inspireString = inspireString.concat(" app!");
 
-	document.getElementById("stringOne").innerHTML = tempOne;
-	document.getElementById("stringTwo").innerHTML = tempTwo;
+	//document.getElementById("stringOne").innerHTML = tempOne;
+	//document.getElementById("stringTwo").innerHTML = tempTwo;
 	document.getElementById("firstButton").style.display='none';
 	document.getElementById("secondButton").style.display='block';
 
+	document.getElementById("inspire").innerHTML = inspireString;
+	document.getElementById("inspire").style.display='block';
 
 }
