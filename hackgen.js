@@ -38,8 +38,8 @@ function generateRands() {
 
 }
 
-var apiList = ["Google Maps", "Twitter"];
-var apiHref = ["https://developers.google.com/maps/", "https://dev.twitter.com/docs"];
+var apiList = ["Google Maps", "Twitter", "Flickr"];
+var apiHref = ["https://developers.google.com/maps/", "https://dev.twitter.com/docs", "http://www.flickr.com/services/api/"];
 
 function generateRandAPI() {
 	var tempNum = Math.floor((Math.random() * apiList.length))
